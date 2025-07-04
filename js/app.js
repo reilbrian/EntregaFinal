@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
                     btnAgregar.textContent = "Agregar"
 
                     btnAgregar.addEventListener("click", ()=>{
-                        alert(`${producto.title} agregado al carrito`);
                         agregarProducto(producto);
                         actualizarAgregados();
                     })
